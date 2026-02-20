@@ -1,0 +1,23 @@
+# --- Frontend (Vue) ---
+**/node_modules/
+**/dist/
+**/dist-ssr/
+*.local
+
+# --- Backend (Django/Python) ---
+**/__pycache__/
+**/*.py[cod]
+**/venv/
+**/.env
+db.sqlite3
+
+# --- System & IDE ---
+.DS_Store
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
